@@ -1,0 +1,16 @@
+Hasil Kode 2.2: sampling dan kuantisasi (citra teh_041),,,
+"Bagian 2, Langkah 2.4. Isi ukuran dan KB dari keluaran Kode 2.2.",,,
+A. Sampling,,,
+Faktor skala (fx),"Ukuran citra (tinggi, lebar)",KB,Pengamatan visual
+0.5,"(240, 320)",5.52,Bercak masih jelas
+0.2,"(96, 128)",4.84,Bercak masih terpisah; detail mulai berkurang
+0.1,"(48, 64)",3.19,Bercak mulai samar
+0.05,"(24, 32)",1.40,Bercak sulit terlihat
+,,,
+B. Kuantisasi,,,
+Jumlah bit (k),Jumlah level unik,KB,Pengamatan visual
+1,2,4.13,Posterisasi kuat; detail intensitas hilang
+2,3,4.13,Gradasi kasar
+3,5,2.53,Detail bercak berkurang
+4,10,4.14,Gradasi cukup terjaga
+8,142,4.69,Gradasi paling halus; level unik terbanyak

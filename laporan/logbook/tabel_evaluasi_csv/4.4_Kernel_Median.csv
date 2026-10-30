@@ -1,0 +1,9 @@
+Pengaruh ukuran kernel median pada bercak kecil (20 citra kelas ringan),,,
+"Bagian 4, Langkah 4.4. Salin dari hasil_median.groupby('kernel'). Kernel 1 = tanpa penapis.",,,
+,,,
+Ukuran kernel,dI (rerata),KB (rerata),Pengamatan (bercak masih terlihat?)
+1,30.62,4.81,Tanpa penapis; bercak terlihat
+3,31.04,4.95,Kontras tertinggi; bercak kecil tetap terlihat
+5,30.18,4.88,Kontras hampir sama; sebagian detail mulai halus
+9,24.00,4.45,Kontras bercak menurun
+15,8.36,2.27,Kontras turun tajam; bercak kecil berisiko hilang

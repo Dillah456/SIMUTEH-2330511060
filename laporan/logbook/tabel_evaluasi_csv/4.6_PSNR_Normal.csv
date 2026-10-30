@@ -1,0 +1,18 @@
+PSNR 12 citra kondisi normal sebelum dan sesudah penapisan,,,
+"Bagian 4, Langkah 4.6. PSNR terhadap pasangan di folder bersih/. Selisih dihitung otomatis.",,,
+Penapis dan parameter yang dipilih:,"median 3x3",,
+,,,
+Citra,PSNR sebelum (dB),PSNR sesudah (dB),Selisih (dB)
+teh_001.png,29.31,36.64,7.32
+teh_006.png,31.68,38.83,7.14
+teh_011.png,26.03,33.55,7.52
+teh_016.png,28.18,35.61,7.42
+teh_021.png,27.03,34.49,7.45
+teh_026.png,27.85,35.29,7.43
+teh_031.png,25.45,33.00,7.54
+teh_036.png,31.27,38.38,7.11
+teh_041.png,29.37,36.63,7.27
+teh_046.png,31.28,38.32,7.04
+teh_051.png,26.86,34.27,7.40
+teh_056.png,30.74,37.88,7.14
+Rerata,28.75,36.07,7.32

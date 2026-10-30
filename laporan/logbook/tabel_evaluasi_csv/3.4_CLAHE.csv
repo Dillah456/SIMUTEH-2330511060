@@ -1,0 +1,13 @@
+Hasil Kode 3.3: pengaruh clipLimit dan tileGridSize (teh_045),,,,
+"Bagian 3, Langkah 3.4. Isi KB untuk setiap kombinasi.",,,,
+,,,
+clipLimit,tileGridSize,KB,"Pengamatan (derau, kesan tidak alami)"
+1,4,1.74,Kontras bercak sedang
+1,8,1.77,Kontras sedikit lebih tinggi
+1,16,1.67,Kontras menurun
+2,4,1.93,KB tertinggi; kontras bercak paling kuat
+2,8,1.91,KB hampir tertinggi; hasil seimbang
+2,16,1.66,Kontras bercak menurun
+4,4,1.86,KB tinggi; periksa peningkatan derau
+4,8,1.75,Kontras sedang
+4,16,1.52,KB terendah; kontras bercak melemah

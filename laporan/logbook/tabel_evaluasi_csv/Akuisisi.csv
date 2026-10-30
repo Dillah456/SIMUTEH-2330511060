@@ -1,0 +1,13 @@
+Rencana akuisisi citra SIMUTEH,,
+"Bagian 2, Langkah 2.2. Dasarkan pada hasil lembar hitung 2.1 dan rujuk angkanya.",,
+,,
+Variabel,Ketentuan,Dasar / alasan (rujuk lembar hitung)
+Jarak dan sudut pemotretan,"Kamera tegak lurus (90 derajat), jarak tetap dengan penyangga; daun memenuhi bidang foto.","Jaga ukuran bercak terkecil 5 mm tetap terwakili minimal 10 piksel sesuai target lembar hitung 2.1."
+Resolusi minimum,"Minimal 640 x 480 piksel; hindari pembesaran digital.","Dataset kerja berukuran 640 x 480; sampling 0.05 menurunkan KB bercak menjadi 1.40 (Tabel 2.4)."
+Alas dan acuan ukuran,"Gunakan alas matte polos dan penggaris skala di bidang daun tanpa menutupi bercak.","Latar dan skala yang konsisten memudahkan segmentasi serta perbandingan ukuran bercak."
+Kondisi cahaya yang perlu diwakili,"Ambil variasi normal, gelap, terang, kontras rendah, dan bayangan; hindari pantulan langsung.","Lima kondisi tersebut tercakup dalam dataset dan memengaruhi KB maupun statistik intensitas (Tabel 8 dan 9)."
+Jumlah citra per kelas,"Target 20 citra sehat, 20 ringan, dan 20 berat; seimbangkan kondisi cahaya.","Mengikuti cakupan 60 citra sintetis yang tersedia, dengan empat citra per kondisi pada setiap kelas."
+Penamaan berkas,"Gunakan urutan unik teh_001.png sampai teh_060.png dan simpan label terpisah.","Pola tersebut konsisten dengan nama berkas dan label.csv pada dataset."
+Izin pengambilan citra,"Dapatkan persetujuan pemilik kebun dan izin sebelum mengambil atau menggunakan foto.","Pengambilan dan penggunaan data harus diketahui serta disetujui pemilik."
+Penghapusan metadata EXIF,"Hapus metadata lokasi, perangkat, dan waktu sebelum berbagi atau menyimpan di repository publik.","Metadata dapat mengungkap lokasi kebun dan identitas perangkat."
+Larangan memuat wajah,"Bingkai hanya daun dan area kerja; jangan sertakan wajah atau identitas pekerja.","Mengurangi risiko privasi dan memastikan citra berfokus pada objek analisis."

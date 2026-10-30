@@ -1,0 +1,14 @@
+Tabel 11. Perbandingan penapis,,,,,,
+"Bagian 4, Langkah 4.3. Salin dari hasil/b4_tabel_penapis.csv (derau gauss_20 dan sp_4%).",,,,,,
+,,,,,,
+Penapis,Gaussian 20,,,Garam-merica 4%,,
+,PSNR (dB),Waktu (ms),KB,PSNR (dB),Waktu (ms),KB
+tanpa,22.11,0.00,1.91,19.30,0.00,1.40
+rerata_3,31.43,0.38,4.39,28.53,0.31,3.59
+rerata_5,34.61,0.38,5.25,31.90,0.37,4.67
+gauss_5,32.58,0.13,4.71,29.64,0.09,3.92
+median_3,29.74,0.07,3.91,48.02,0.06,6.62
+median_5,33.48,0.59,5.10,45.17,0.53,6.68
+median_9,35.66,12.89,5.74,40.74,11.40,7.27
+,,,,,,
+"Catatan: baris ""tanpa"" = citra berderau tanpa penapis (waktu 0).",,,,,,

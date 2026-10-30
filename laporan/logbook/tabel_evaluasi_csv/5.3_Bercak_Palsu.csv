@@ -1,0 +1,9 @@
+Uji bercak palsu pada 20 citra kelas sehat (teh_001 sampai teh_020),,,,,
+"Bagian 5, Langkah 5.3. Simpangan baku kanal terpilih pada area daun (mask_daun), rerata per kondisi.",,,,,
+,,,,,
+Kondisi,Simp. baku sebelum,Simp. baku sesudah,Perubahan (%),Muncul titik terang? (Ya/Tidak),Catatan
+normal,11.11,9.50,-0.1449,Tidak,Tidak tampak titik terang baru pada inspeksi visual
+gelap,9.62,6.48,-0.3264,Tidak,Tidak tampak titik terang baru pada inspeksi visual
+terang,10.60,12.04,0.1358,Tidak,Tidak tampak titik terang baru pada inspeksi visual
+kontras_rendah,10.82,10.73,-0.0083,Tidak,Tidak tampak titik terang baru pada inspeksi visual
+bayangan,13.98,9.99,-0.2854,Tidak,Tidak tampak titik terang baru pada inspeksi visual

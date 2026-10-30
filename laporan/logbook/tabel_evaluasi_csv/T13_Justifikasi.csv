@@ -1,0 +1,9 @@
+Tabel 13. Justifikasi rangkaian praproses,,,
+"Bagian 5, Langkah 5.4. Rujuk tabel atau gambar bernomor dari hasil Anda sebagai bukti.",,,
+,,,
+Langkah,Parameter final,Alasan dan bukti (rujuk tabel atau gambar),Risiko bila salah atur
+1. Ubah ukuran,"Lebar 640 px, INTER_AREA","Citra sumber berukuran 640 x 480. Sampling 0.05 menurunkan KB menjadi 1.40 (Tabel 2.4), sehingga ukuran kerja dipertahankan agar bercak kecil tidak hilang.","Terlalu kecil: bercak hilang; terlalu besar: waktu dan kebutuhan memori meningkat."
+2. Koreksi gamma,"gamma=1.0 (tanpa perubahan)","Hasil gamma 0.5 memberi KB 0.94 dan gamma 1.8 memberi 1.19, sedangkan CLAHE mencapai KB 1.91 pada teh_045 (Tabel 10).","Gamma berlebihan dapat menggelapkan atau membuat area terang kehilangan detail."
+3. CLAHE kanal V,"clipLimit=2.0, tileGridSize=8x8","Kombinasi 2.0/8 menghasilkan KB 1.91, dekat hasil tertinggi 1.93 pada 2.0/4 (Tabel 3.4); rerata KB rangkaian naik dari 6.94 ke 9.35 (Tabel 12).","Clip atau grid berlebihan dapat menguatkan derau dan membuat tekstur tidak alami."
+4. Redam derau,"Median 3x3","Pada garam-merica 4%, median_3 mencapai PSNR 48.02 dB dengan waktu 0.06 ms (Tabel 11); kernel 15 menurunkan KB bercak kecil menjadi 2.27 (Tabel 4.4).","Kernel besar dapat menghapus detail dan bercak kecil."
+5. Tajamkan,"tajam_k=0 (dinonaktifkan)","Belum dipakai pada parameter final; tanpa penajaman menghindari penguatan derau atau titik yang menyerupai bercak. Periksa kembali setelah evaluasi pada semua kondisi (Tabel 5.3).","Penajaman berlebihan dapat menghasilkan halo, derau, atau titik terang palsu."

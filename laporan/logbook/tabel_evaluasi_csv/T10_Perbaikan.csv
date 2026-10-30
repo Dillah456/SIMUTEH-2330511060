@@ -1,0 +1,13 @@
+Tabel 10. Hasil perbaikan citra kondisi bayangan (teh_045),,,,
+"Bagian 3, Langkah 3.3. KB dan simpangan baku dari keluaran Kode 3.2.",,,,
+,,,
+Metode,Parameter,KB,Simpangan baku,Pengamatan visual
+asli,,1.03,52.7,Citra bayangan; kontras bercak rendah
+negatif,,1.03,52.7,Kontras bercak tidak berubah; tampilan terbalik
+cerah+50,,1.03,51.7,Citra lebih cerah tetapi kontras bercak tetap
+kontras,"alpha 1.5, beta -40",1.03,75.6,Simpangan baku naik; KB tidak meningkat
+regang,"persentil 2-98",1.06,81.5,Rentang intensitas melebar; peningkatan KB kecil
+gamma0.5,,0.94,37.9,KB turun; bercak lebih sulit dipisahkan
+gamma1.8,,1.19,56.4,KB meningkat sedikit
+ekualisasi,,0.85,73.4,Simpangan baku tinggi tetapi KB menurun
+CLAHE,"clipLimit 2.0, tile 8x8",1.91,44.4,KB tertinggi; bercak lebih terpisah

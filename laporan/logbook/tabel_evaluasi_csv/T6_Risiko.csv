@@ -1,0 +1,10 @@
+Tabel 6. Risiko responsible computer vision SIMUTEH,,
+"Bagian 1, Langkah 7. Isi risiko dan mitigasi dengan kalimat Anda sendiri.",,
+,,
+Aspek,Risiko pada SIMUTEH,Mitigasi awal
+Privasi citra,"Foto kebun atau area sortir dapat memuat wajah, lokasi, atau metadata pemilik.","Bingkai hanya daun, minta izin, matikan geotag, dan hapus EXIF sebelum menyimpan atau berbagi."
+Bias dan keadilan,"Model dapat kurang akurat pada kondisi cahaya, varietas, atau tingkat bercak yang tidak terwakili.","Seimbangkan data untuk lima kondisi cahaya dan tiap kelas; uji performa per kondisi sebelum digunakan."
+Transparansi,"Skor atau label otomatis dapat dianggap sebagai keputusan pasti tanpa mengetahui batas model.","Tampilkan alasan/indikator yang digunakan, tingkat keyakinan, dan anjuran pemeriksaan manusia."
+Keamanan data,"Foto dan label dapat diubah, dihapus, atau diakses pihak yang tidak berwenang.","Batasi hak akses, gunakan cadangan, dan verifikasi integritas berkas serta label."
+Dampak sosial,"Kesalahan klasifikasi dapat memengaruhi keputusan sortir dan merugikan petani.","Jadikan hasil sebagai alat bantu, sediakan pemeriksaan ulang, dan catat koreksi pengguna."
+Keterlacakan,"Sulit mengulang hasil bila versi data, parameter, atau praproses tidak dicatat.","Simpan versi dataset, parameter praproses, seed, dan riwayat evaluasi bersama hasil."
